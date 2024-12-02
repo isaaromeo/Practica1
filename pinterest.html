@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff0036" />
+    <meta name="description" content="Primera practica: Recrear Pinterest"/>
+    <meta name="keywords" content="web, programar, site, metadata"/>
+    <meta name="author" content="Isabel Romeo" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Pinterest</title>
+
+</head>
+<body>
+    <header>
+        <!-- icono Pinterest -->
+         <div>
+            <img src=".\assets\logo.png" alt="logo" width="50" height="50">
+        </div>
+        <h1>Pinterest</h1>
+         <nav>
+            <ul>
+                <li> <a href="Inicio"><p>Inicio</p></a></li>
+                <li> <a href="Explorar"><p>Explorar</p></a></li>
+                <li> <a href="Para ti"><p>Para ti</p></a></li>
+
+            </ul>
+
+         </nav>
+        <!-- searchbar -->
+        <section id="search">
+            <form >
+                <input type="text" placeholder="Search">
+                <input type="submit" placeholder="Search" >
+            </form>
+
+         </section>
+        <!-- Seccion perfil  -->
+        <!-- Seccion notificaciones -->
+        <nav>
+            <ul>
+                <li> <a href="Notificaciones"><img src=".\assets\campana.png"  alt="Notificaciones" width="30" height="30"></a></li>
+                <li> <a href="Mi perfil"><img src=".\assets\perfil.png" alt="perfil" width="30" height="30"></a></li>
+                <li>
+                    <form>
+                        <select id="theme-color" name="theme-color">
+                            <option value="Modo oscuro">Modo oscuro</option>
+                            <option value="Modo claro">Modo claro</option> 
+                    </form></li>
+            </ul>
+            
+         </nav>
+
+        
+    </header>
+    <main>
+        <!-- Seccion de lo mas recomendado -->
+         <div>
+            <h2>Recomendado</h2>
+            <ul>
+                <li><a href="img"><img src="/assets/froggy.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\TOGinspo.jpg" alt="inspo"></a></li>
+                <li><a href="img"><img src=".\assets\dragon.jpg" alt="dragon"></a></li>
+                <li><a href="img"><img src=".\assets\TOG1.jpg" alt="TOG"></a></li>
+
+         </div>
+        <!-- Seccion por categorias -->
+         <div>
+            <h3>Tus categorias</h3>
+
+            <section id="Books" class="categorias" title="Books">
+                <h4>Books</h4>
+                <li><a href="img"><img src=".\assets\books1.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\books2.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\books3.jpg" alt="dragon"></a></li>
+             </section>
+
+             <section id="Cute animals" class="categorias" title="Cute animals">
+                <h4>Cute animals</h4>
+                <li><a href="img"><img src=".\assets\cute1.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\cute2.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\cute3.jpg" alt="dragon"></a></li>
+             </section>
+
+             <section id="Aesthetic" class="categorias" title="Aesthetic">
+                <h4>Aesthetic</h4>
+                <li><a href="img"><img src=".\assets\aest1.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\aest2.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\aest3.jpg" alt="dragon"></a></li>
+             </section>
+
+             <section id="Makeup" class="categorias" title="Makeup">
+                <h4>Makeup</h4>
+                <li><a href="img"><img src=".\assets\makeup1.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\makeup2.jpg" alt="frog"></a></li>
+                <li><a href="img"><img src=".\assets\makeup3.jpg" alt="dragon"></a></li>
+             </section>
+      
+
+        </div>
+
+    </main>
+    <footer>
+        <!-- Contacto -->
+        <!-- FAQs -->
+        <nav>
+            <ul>
+                <li> <a href="Contacto"><p>Contacto</p></a></li>
+                <li> <a href="FAQs"><p>FAQs</p></a></li>
+
+            </ul>
+
+         </nav>
+
+
+    </footer>
+</body>
+</html>
